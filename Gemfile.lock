@@ -1,0 +1,51 @@
+GEM
+  specs:
+    activesupport (4.0.0)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    addressable (2.3.5)
+    atomic (1.1.14)
+    coderay (1.0.9)
+    crack (0.4.1)
+      safe_yaml (~> 0.9.0)
+    diff-lcs (1.2.4)
+    docnmock (0.0.1)
+      activesupport
+      webmock
+    docnmock_github (0.0.1)
+      docnmock
+    i18n (0.6.5)
+    method_source (0.8.2)
+    minitest (4.7.5)
+    multi_json (1.8.0)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    rspec (2.14.1)
+      rspec-core (~> 2.14.0)
+      rspec-expectations (~> 2.14.0)
+      rspec-mocks (~> 2.14.0)
+    rspec-core (2.14.5)
+    rspec-expectations (2.14.2)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.14.3)
+    safe_yaml (0.9.7)
+    slop (3.4.6)
+    thread_safe (0.1.3)
+      atomic
+    tzinfo (0.3.37)
+    webmock (1.13.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  docnmock_github
+  pry
+  rspec
